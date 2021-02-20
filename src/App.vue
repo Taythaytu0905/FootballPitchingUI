@@ -1,17 +1,17 @@
 <template>
-  <v-app>
-    <v-main>
-      Nguyen Thanh Do
-    </v-main>
-  </v-app>
+  <div>
+    <p>doan cong trungs</p>
+    <button>abc</button>
+  </div>
 </template>
 
 <script>
-
 export default {
   name: 'App',
-  data: () => ({
-    //
-  })
+  data() {
+    return {
+      //
+    }
+  },
 }
 </script>

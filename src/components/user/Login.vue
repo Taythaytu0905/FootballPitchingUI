@@ -1,4 +1,5 @@
 <template>
+<v-app>
   <v-dialog
     :value="visible"
     @keydown.esc="closeDialog()"
@@ -141,6 +142,7 @@
       </v-tabs-items>
     </v-card>
   </v-dialog>
+</v-app>
 </template>
 
 <script>
